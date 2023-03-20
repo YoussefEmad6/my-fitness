@@ -40,6 +40,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       setExercises(searchedExercises);
     }
   };
+  
   return (
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       <Typography
